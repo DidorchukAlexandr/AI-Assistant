@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AI-Assistant/static/css/main.f855e6bc.css",
+    "main.js": "/AI-Assistant/static/js/main.c76a5e9b.js",
+    "static/js/453.be28beb3.chunk.js": "/AI-Assistant/static/js/453.be28beb3.chunk.js",
+    "static/media/logo.svg": "/AI-Assistant/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/AI-Assistant/index.html",
+    "main.f855e6bc.css.map": "/AI-Assistant/static/css/main.f855e6bc.css.map",
+    "main.c76a5e9b.js.map": "/AI-Assistant/static/js/main.c76a5e9b.js.map",
+    "453.be28beb3.chunk.js.map": "/AI-Assistant/static/js/453.be28beb3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.c76a5e9b.js"
+  ]
+}
