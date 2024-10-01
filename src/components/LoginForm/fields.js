@@ -1,10 +1,10 @@
 const fields = {
   email: {
-    label: "E-mail",
+    label: "Email",
     name: "email",
     type: "email",
     required: true,
-    placeholder: "E-mail",
+    placeholder: "Email",
   },
   password: {
     label: "Password",
