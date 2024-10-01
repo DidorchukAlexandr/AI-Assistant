@@ -20,8 +20,8 @@ export const Title = styled.h2`
     font-size: 24px;
     margin-left: 145px;
   }
-  @media screen and (max-width: 768px) {
-    margin-left: 135px;
+  @media screen and (max-width: 480px) {
+    margin-left: 115px;
   }
 `;
 

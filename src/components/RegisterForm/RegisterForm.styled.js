@@ -16,6 +16,9 @@ export const Title = styled.h2`
     font-size: 24px;
     margin-left: 100px;
   }
+  @media screen and (max-width: 480px) {
+    margin-left: 77px;
+  }
 `;
 
 export const Form = styled.form`
