@@ -1,13 +1,21 @@
+import { useDispatch } from "react-redux";
+import { login } from "../../redux/auth/auth-operations";
 import Container from "../../components/Container/Container";
+import LoginForm from "../../components/LoginForm/LoginForm";
+import { Wrap } from "./LoginPage.styled";
 import Header from "../../components/Header/Header";
-import { Title, Wrap } from "./LoginPage.styled";
 const LoginPage = () => {
+const dispatch = useDispatch();
+
+    const onLogin = (data) => {
+        dispatch(login(data));
+    }
+
     return (
         <Container>
-             
-            <Header />
+             <Header />
             <Wrap>
-                <Title>Login Page</Title>
+                <LoginForm onSubmit={onLogin}/>
            </Wrap>
         
        </Container>

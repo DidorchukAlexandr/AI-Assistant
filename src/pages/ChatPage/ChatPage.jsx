@@ -5,7 +5,6 @@ import { Title, Wrap } from "../LoginPage/LoginPage.styled";
 const ChatPage = () => {
     return (
         <Container>
-             
             <Header />
             <Wrap>
                 <Title>Chat Page</Title>

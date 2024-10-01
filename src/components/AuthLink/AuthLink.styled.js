@@ -14,7 +14,7 @@ export const Reg = styled(NavLink)`
   text-decoration: none;
 
   &.active {
-    color: #2a2c36;
+    color: black;
   }
 `;
 
@@ -28,6 +28,6 @@ export const Log = styled(NavLink)`
   margin-left: 20px;
 
   &.active {
-    color: #2a2c36;
+    color: black;
   }
 `;

@@ -19,13 +19,13 @@ export const Label = styled.label`
 `;
 
 export const Input = styled.input`
+  position: relative;
   color: darkred;
+  background: white;
   font-family: "Poppins";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   padding: 7px;
   border-radius: 6px;
-  /* border: none; */
-  outline: none;
 `;

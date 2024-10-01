@@ -1,13 +1,4 @@
 const fields = {
-  name: {
-    label: "Name",
-    name: "name",
-    type: "text",
-    required: true,
-    placeholder: "Name",
-    autoComplete: "off",
-    minLength: 2,
-  },
   email: {
     label: "E-mail",
     name: "email",

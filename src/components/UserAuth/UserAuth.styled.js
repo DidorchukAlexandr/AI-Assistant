@@ -12,12 +12,12 @@ export const HomeLink = styled(NavLink)`
   color: white;
   font-family: "Poppins";
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   margin-right: 10px;
   padding: 10px;
   &.active {
-    color: #2a2c36;
+    color: black;
   }
 `;
 
@@ -26,12 +26,12 @@ export const ChatLink = styled(NavLink)`
   color: white;
   font-family: "Poppins";
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   margin-right: 40px;
   padding: 10px;
   &.active {
-    color: #2a2c36;
+    color: black;
   }
 `;
 

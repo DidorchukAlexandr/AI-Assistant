@@ -4,7 +4,7 @@ import { Provider } from "react-redux";
 import { store, persistor } from "../redux/store";
 import RegistrationPage from "../pages/RegistrationPage/RegistrationPage";
 import { GlobalStyle } from "./GlobalStyles";
-import HomePage from "../pages/HomePage/HomePage";
+import NavBar from "../pages/NavBar/NavBar";
 import ChatPage from "../pages/ChatPage/ChatPage";
 import LoginPage from "../pages/LoginPage/LoginPage";
 import MainPage from "../pages/MainPage/MainPage";
@@ -19,9 +19,9 @@ function App() {
       <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
         <AuthLayout>
-           <BrowserRouter>
+            <BrowserRouter>
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/" element={<NavBar />} />
             <Route element={<PublicRoute />}>
               <Route path="/register" element={<RegistrationPage />} />
               <Route path="/login" element={<LoginPage />} />
