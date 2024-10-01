@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/AI-Assistant/static/css/main.abb44248.css",
-    "main.js": "/AI-Assistant/static/js/main.7295aa02.js",
-    "static/media/alata-latin-400-normal.woff": "/AI-Assistant/static/media/alata-latin-400-normal.ff16b710737e5f9c2133.woff",
-    "static/media/alata-latin-400-normal.woff2": "/AI-Assistant/static/media/alata-latin-400-normal.28a20ce242e456e07940.woff2",
-    "static/media/alata-latin-ext-400-normal.woff2": "/AI-Assistant/static/media/alata-latin-ext-400-normal.88daabe4c5d34274228a.woff2",
-    "static/media/alata-latin-ext-400-normal.woff": "/AI-Assistant/static/media/alata-latin-ext-400-normal.94f3cbb416a6fc4e677d.woff",
-    "static/media/AIassistant.jpg": "/AI-Assistant/static/media/AIassistant.0a3a6cab79b602b567cf.jpg",
-    "static/media/poppins-latin-400-normal.woff": "/AI-Assistant/static/media/poppins-latin-400-normal.1458587c0aa7cd06b82b.woff",
-    "static/media/alata-vietnamese-400-normal.woff2": "/AI-Assistant/static/media/alata-vietnamese-400-normal.ffcb3198c6c44f19e141.woff2",
-    "static/media/poppins-latin-400-normal.woff2": "/AI-Assistant/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
-    "static/media/alata-vietnamese-400-normal.woff": "/AI-Assistant/static/media/alata-vietnamese-400-normal.ed231da85f2f2689a3d0.woff",
-    "static/media/poppins-latin-ext-400-normal.woff": "/AI-Assistant/static/media/poppins-latin-ext-400-normal.cf7e1ed83eb19f7b1ea6.woff",
-    "static/media/poppins-latin-ext-400-normal.woff2": "/AI-Assistant/static/media/poppins-latin-ext-400-normal.6f94f40f848d79872444.woff2",
-    "static/media/logo-google-icon.svg": "/AI-Assistant/static/media/logo-google-icon.efa560d32653a615a1db742bbf78c815.svg",
-    "index.html": "/AI-Assistant/index.html",
-    "main.abb44248.css.map": "/AI-Assistant/static/css/main.abb44248.css.map",
-    "main.7295aa02.js.map": "/AI-Assistant/static/js/main.7295aa02.js.map"
+    "main.css": "/static/css/main.6bc6fe10.css",
+    "main.js": "/static/js/main.03754fb9.js",
+    "static/media/alata-latin-400-normal.woff": "/static/media/alata-latin-400-normal.ff16b710737e5f9c2133.woff",
+    "static/media/alata-latin-400-normal.woff2": "/static/media/alata-latin-400-normal.28a20ce242e456e07940.woff2",
+    "static/media/alata-latin-ext-400-normal.woff2": "/static/media/alata-latin-ext-400-normal.88daabe4c5d34274228a.woff2",
+    "static/media/alata-latin-ext-400-normal.woff": "/static/media/alata-latin-ext-400-normal.94f3cbb416a6fc4e677d.woff",
+    "static/media/AIassistant.jpg": "/static/media/AIassistant.0a3a6cab79b602b567cf.jpg",
+    "static/media/poppins-latin-400-normal.woff": "/static/media/poppins-latin-400-normal.1458587c0aa7cd06b82b.woff",
+    "static/media/alata-vietnamese-400-normal.woff2": "/static/media/alata-vietnamese-400-normal.ffcb3198c6c44f19e141.woff2",
+    "static/media/poppins-latin-400-normal.woff2": "/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/alata-vietnamese-400-normal.woff": "/static/media/alata-vietnamese-400-normal.ed231da85f2f2689a3d0.woff",
+    "static/media/poppins-latin-ext-400-normal.woff": "/static/media/poppins-latin-ext-400-normal.cf7e1ed83eb19f7b1ea6.woff",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/static/media/poppins-latin-ext-400-normal.6f94f40f848d79872444.woff2",
+    "static/media/logo-google-icon.svg": "/static/media/logo-google-icon.efa560d32653a615a1db742bbf78c815.svg",
+    "index.html": "/index.html",
+    "main.6bc6fe10.css.map": "/static/css/main.6bc6fe10.css.map",
+    "main.03754fb9.js.map": "/static/js/main.03754fb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.abb44248.css",
-    "static/js/main.7295aa02.js"
+    "static/css/main.6bc6fe10.css",
+    "static/js/main.03754fb9.js"
   ]
 }
