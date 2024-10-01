@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const WrapForm = styled.div`
   padding: 20px;
+
+  @media screen and (max-width: 768px) {
+    padding: 10px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -16,6 +20,9 @@ export const Title = styled.h2`
     font-size: 24px;
     margin-left: 145px;
   }
+  @media screen and (max-width: 768px) {
+    margin-left: 135px;
+  }
 `;
 
 export const Form = styled.form`
@@ -27,6 +34,10 @@ export const Form = styled.form`
   padding-bottom: 10px;
   @media screen and (max-width: 768px) {
     width: 350px;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 300px;
   }
 `;
 export const Btn = styled.button`
@@ -65,6 +76,12 @@ export const Span = styled.span`
   line-height: 1.12;
   color: #fafafa;
   margin-left: 218px;
+  @media screen and (max-width: 768px) {
+    margin-left: 165px;
+  }
+  @media screen and (max-width: 480px) {
+    margin-left: 145px;
+  }
 `;
 
 export const Span2 = styled.span`

@@ -28,6 +28,9 @@ export const Form = styled.form`
   @media screen and (max-width: 768px) {
     width: 350px;
   }
+  @media screen and (max-width: 480px) {
+    width: 300px;
+  }
 `;
 
 export const Btn = styled.button`
@@ -66,6 +69,13 @@ export const Span = styled.span`
   line-height: 1.12;
   color: #fafafa;
   margin-left: 218px;
+  @media screen and (max-width: 768px) {
+    margin-left: 165px;
+  }
+
+  @media screen and (max-width: 480px) {
+    margin-left: 145px;
+  }
 `;
 
 export const Span2 = styled.span`

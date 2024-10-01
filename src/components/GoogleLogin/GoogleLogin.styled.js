@@ -11,7 +11,7 @@ export const GoogleBtn = styled.button`
   justify-content: center;
   margin: 0 auto;
   width: 96%;
-  height: 45px;
+  height: 56px;
   border: none;
   border-radius: 6px;
   background: white;
