@@ -13,8 +13,13 @@ export const Title = styled.h2`
 
 export const Wrap = styled.div`
   display: flex;
-  padding: 20px 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   background-color: blue;
+  @media screen and (max-width: 768px) {
+    padding: 10px;
+  }
 `;
 
 export const WrapNav = styled.div`

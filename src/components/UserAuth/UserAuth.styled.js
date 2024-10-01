@@ -5,6 +5,11 @@ export const Wrap = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 `;
 
 export const HomeLink = styled(NavLink)`
@@ -40,7 +45,14 @@ export const ChatLink = styled(NavLink)`
 
   @media screen and (max-width: 768px) {
     font-size: 16px;
+    margin-right: 20px;
   }
+`;
+
+export const LinkWrap = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const ImageWrap = styled.div`
@@ -59,6 +71,10 @@ export const Image = styled.img`
   width: 44px;
   height: 44px;
   margin-left: 15px;
+  @media screen and (max-width: 768px) {
+    width: 30px;
+    height: 30px;
+  }
 `;
 
 export const Btn = styled.button`

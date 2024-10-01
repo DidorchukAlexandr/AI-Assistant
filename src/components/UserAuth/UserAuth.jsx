@@ -3,7 +3,7 @@ import { getUser } from "../../redux/auth/auth-selectors";
 import { logout } from "../../redux/auth/auth-operations";
 import headerIcon from "../../images/headerIcon.png";
 
-import { ImageWrap, Image, ChatLink, Btn, Wrap, HomeLink } from "./UserAuth.styled";
+import { ImageWrap, Image, ChatLink, Btn, Wrap, HomeLink, LinkWrap } from "./UserAuth.styled";
 
 const UserAuth = () => {
   const { name } = useSelector(getUser);
@@ -16,8 +16,10 @@ const UserAuth = () => {
 
   return (
     <Wrap>
+      <LinkWrap>
       <HomeLink to="/main">Home</HomeLink>
-      <ChatLink to="/chat">Chat</ChatLink>
+        <ChatLink to="/chat">Chat</ChatLink>
+        </LinkWrap>
       <ImageWrap>
         {name}
         <Image src={headerIcon} />
