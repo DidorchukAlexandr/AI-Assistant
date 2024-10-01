@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const FormGroup = styled.div`
+  width: 100%;
   display: grid;
   background-color: #2a2c36;
   gap: 10px;
@@ -26,4 +27,5 @@ export const Input = styled.input`
   line-height: 1.5;
   padding: 7px;
   border-radius: 6px;
+  width: 100%;
 `;
