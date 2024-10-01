@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const FormGroup = styled.div`
   display: grid;
   background-color: #2a2c36;
-  width: 450px;
   gap: 10px;
   align-items: center;
   padding: 7px;
@@ -19,7 +18,6 @@ export const Label = styled.label`
 `;
 
 export const Input = styled.input`
-  position: relative;
   color: darkred;
   background: white;
   font-family: "Poppins";

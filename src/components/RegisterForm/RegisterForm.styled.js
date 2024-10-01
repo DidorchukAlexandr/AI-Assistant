@@ -11,22 +11,30 @@ export const Title = styled.h2`
   font-size: 32px;
   line-height: 1.5;
   margin-left: 130px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+    margin-left: 100px;
+  }
 `;
 
 export const Form = styled.form`
-  width: 450px;
+  max-width: 450px;
   margin: 0 auto;
   background-color: #2a2c36;
   border-radius: 6px;
   padding-top: 10px;
   padding-bottom: 10px;
+  @media screen and (max-width: 768px) {
+    width: 350px;
+  }
 `;
 
 export const Btn = styled.button`
   display: block;
   margin: 0 auto;
   width: 96%;
-  height: 30px;
+  height: 56px;
   border: none;
   border-radius: 6px;
   background: white;

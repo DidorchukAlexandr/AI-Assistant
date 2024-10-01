@@ -16,7 +16,7 @@ const LoginForm = ({ onSubmit }) => {
         <>
       <WrapForm>
           <Form onSubmit={handleSubmit}>
-                    <Title>Registration</Title>
+                    <Title>Log In</Title>
                   <TextField
                       value={email}
                       onChange={handleChange}

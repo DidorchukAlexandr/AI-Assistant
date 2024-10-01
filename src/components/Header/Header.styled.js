@@ -6,6 +6,9 @@ export const Title = styled.h2`
   font-size: 24px;
   line-height: 1.5;
   color: white;
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
 `;
 
 export const Wrap = styled.div`

@@ -16,6 +16,10 @@ export const Reg = styled(NavLink)`
   &.active {
     color: black;
   }
+
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
 `;
 
 export const Log = styled(NavLink)`
@@ -29,5 +33,9 @@ export const Log = styled(NavLink)`
 
   &.active {
     color: black;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
   }
 `;

@@ -19,6 +19,10 @@ export const HomeLink = styled(NavLink)`
   &.active {
     color: black;
   }
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
 `;
 
 export const ChatLink = styled(NavLink)`
@@ -32,6 +36,10 @@ export const ChatLink = styled(NavLink)`
   padding: 10px;
   &.active {
     color: black;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
   }
 `;
 
@@ -71,5 +79,9 @@ export const Btn = styled.button`
   :focus {
     color: black;
     border: 1px solid;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
   }
 `;
